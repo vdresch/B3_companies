@@ -14,3 +14,8 @@ It's also needed to change the path for the webdriver in the program ``` get_b3_
 
 ### The output
 There is in this repository an output for the day 25/03/2022. It's a CSV file with the ticker, the name of the company, the fantasy name, as well as the Corporate Governance Levels of the companies. If ran, an updated output will be generated.
+
+
+### To do
+- [ ] The performance can be inproved by locating elements instead of using sleep.
+- [ ] There are other assets being negociated on B3 that are not companies, like commodities and ETFs. It's not hard to modify this project to get this other assets.
