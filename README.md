@@ -1,6 +1,6 @@
-# B3 tickers
+# B3 companies
 ### What it is
-This is a web scraping tool designed to get all the tickers from companies listed on B3 and save it as a CSV.
+This is a web scraping tool designed to get all the companies listed on B3 and save it as a CSV.
 
 ### How to use it
 The requirements for running the application are:
@@ -13,7 +13,7 @@ The requirements for running the application are:
 It's also needed to change the path for the webdriver in the program ``` get_b3_tickers.py ```
 
 ### The output
-There is in this repository an output for the day 25/03/2022. It's a CSV file with the ticker, the name of the company, the fantasy name, as well as the Corporate Governance Levels of the companies. If ran, an updated output will be generated.
+There is in this repository an output for the day 25/03/2022. It's a CSV file with the code, the name of the company, the fantasy name, as well as the Corporate Governance Levels of the companies. If ran, an updated output will be generated.
 
 
 ### To do
