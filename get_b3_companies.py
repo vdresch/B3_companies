@@ -130,9 +130,9 @@ if __name__ == '__main__':
 
     print("Saving data")
 
-    tickers = tickers.rename(columns={0:'Ticker', 1:'Nome', 2:'Nome fantasia', 3:'Governança'})
+    tickers = tickers.rename(columns={0:'Code', 1:'Nome', 2:'Nome fantasia', 3:'Governança'})
     tickers['Governança'] = tickers['Governança'].fillna('-')
 
-    name = 'B3_tickers_' + datetime.today().strftime('%Y-%m-%d') + '.csv'
+    name = 'B3_companies_' + datetime.today().strftime('%Y-%m-%d') + '.csv'
 
     tickers.to_csv(name, index=False)
